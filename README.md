@@ -54,7 +54,7 @@ Matlab • C#
 The folder is roughly 6GB.
 
 Project Source: https://www.kaggle.com/datasets/disbeat/bciaut-p300 </br>
-MatLab Files: https://github.com/Mysftz/brain-computer-interface-classification-matLab </br>
+MatLab Files: https://github.com/Mysftz/brain-computer-interface-classification-matlab </br>
 Python Files: https://github.com/Mysftz/brain-computer-interface-classification-python </br>
 LaTeX Thesis: https://github.com/Mysftz/brain-computer-interface-classification-thesis
 
