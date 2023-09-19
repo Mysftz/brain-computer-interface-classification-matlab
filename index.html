@@ -1,0 +1,286 @@
+<h1>Brain Computer Interface (BCI) Classification</h1>
+This index file forms an inventory supplementing a corpus which is submitted alongside a dissertation for the degree of a Masters of Science in Computer Science (Artificial Intelligence) at the University of Kent in September 2022. <br> <br>
+
+Project Supervisor: Dr. P. Ramaswamy <br>
+Project Author: Lukasz Ryszard Tomaszewski <br>
+Contact E-mail: <a href="mailto: Lrgt2@kent.ac.uk"> Lrgt2@kent.ac.uk</a> <br>
+
+<h4>Project Folder Source</h4>
+The folder is roughly 6GB. <br>
+<a href="https://github.com/Mysftz/Brain-Computer-Interface-Classification">Project folder source on GitHub</a> <br>
+<a href="https://drive.google.com/drive/folders/1c1AWt_cGTtv_eabgYtVpXG-OnM9E6Khn?usp=sharing">Project folder source on Google Drive</a> <br>
+
+<h4>README.txt Brief</h4>
+This Project utilises Matlab to run variation of a convolutional neural network (CNN) which is located in the CNN folder, these file learns from dataset located in the dataset folder which contains 15 subjects and 7 session each with 9 files of data. The .m files in the CNN folder run session 1-7, 1-3 or 4-7 to which requests the appropriate data from the dataset file using a list that is located in the SBJ-S folder which contains subject, session numbers and cell range to which the results will be printed into a spreadsheet. These spreadsheet will write over each other so the results are copied into another spreadsheet in the results folder called All_Results_Data which contains all the project and experiment results, these are then organised further into spreadsheets for results for sessions 1-3, 4-7 and 1-7. The BCI_CNN_Function.m file in the CNN folder is the convolutional neural network that can be manipulated to run different variations of the CNN to improve the session accuracy.
+
+
+<style>
+  th, td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+</style>
+
+<h2>BCI Folder Contents</h2>
+<table>
+  <tr>
+    <td><a href="/index.html">index.html</a></td>
+    <td><a href="/README.txt">README.txt</a></td>
+  </tr>
+</table>
+
+<h2><a href="CNN"> CNN Folder</a></h2>
+
+<table>
+    <tr>
+      <td><a href="CNN/BCI_CNN_Function.m">BCI_CNN_Function.m</a></td>
+      <td><a href="CNN/BCI_CNN_S1_3.m">BCI_CNN_S1_3.m</a></td>
+      <td><a href="CNN/BCI_CNN_S4_7.m">BCI_CNN_S4_7.m</a></td>
+      <td><a href="CNN/BCI_CNN_S1_7.m">BCI_CNN_S1_7.m</a></td>
+      <td><a href="CNN/BCI_CNN_Test_Norm.m">BCI_CNN_Test_Norm.m</a></td>
+      <td><a href="CNN/BCI_CNN_Function_Norm.m">BCI_CNN_Function.m</a></td>
+    </tr>
+  </table>
+
+  <h2><a href="Research & Resources"> Research & Resources Folder</a></h2>
+  <table>
+    <tr>
+      <td><a href="Research & Resources/Project Brief.png">Project Brief.png</a></td>
+      <td><a href="Research & Resources/CO880_Gantt_Chart.png">CO880_Gantt_Chart.png</a></td>
+      <td><a href="Research & Resources/Kim2017_Book_MATLABDeepLearning.pdf">Kim2017_Book_MATLABDeepLearning.pdf</a></td>
+    </tr>
+    <tr>
+      <td><a href="Research & Resources/Dataset Paper - fnins-14-568104.pdf">Dataset Paper.pdf</a></td>
+      <td><a href="Research & Resources/Clinical Trial Technical Paper - 1-s2.0-S0165027017302728-main.pdf"> Clinical Trial Technical Paper.pdf</a></td>
+      <td><a href="Research & Resources/Clinical Trial Paper - fnins-12-00477.pdf">Clinical Trial Paper</a></td>
+    </tr>
+    <tr>
+      <td><a href="Research & Resources/Palani's Paper - Performance_Evaluation_of_Manifold_Algorithms_on_a_P300_Paradigm_based_Online_BCI_Dataset20final.pdf">Palani' Paper.pdf</a></td>
+      <td><a href="Research & Resources/BCI_for_disabled_subjects.pdf">BCI_for_disabled_subjects.pdf</a></td>
+      <td><a href="Research & Resources/Brain-ComputerInterfaceInfo.pdf">Brain-ComputerInterfaceInfo.pdf</a></td>
+    </tr>
+    <tr>
+      <td><a href="Research & Resources/MathWorks-Learn About Convolutional Neural Networks - MATLAB & Simulink - MathWorks United Kingdom.webarchive">Learn About Convolutional Neural Networks</a></td>
+      <td><a href="Research & Resources/MathWorks-Specify Layers of Convolutional Neural Network - MATLAB & Simulink - MathWorks United Kingdom.webarchive">Specify Layers of Convolutional Neural Network</a></td>
+      <td><a href="Research & Resources/MathWorks-What is a Convolutional Neural Network? - MATLAB & Simulink.webarchive">What is a Convolutional Neural Network?</a></td>
+    </tr>
+    <tr>
+      <td><a href="Research & Resources/Regressive CNN for EMG control_Ameri_2019_J._Neural_Eng._16_036015.pdf">Regressive CNN for EMG control.pdf</a></td>
+      <td><a href="Research & Resources/dropout layer review.pdf">dropout layer review.pdf</a></td>
+      <td><a href="Research & Resources/Guide to CNN's.pdf">Guide to CNN's.pdf</a></td>
+    </tr>
+    <tr>
+      <td><a href="Research & Resources/Understanding_of_a_convolutional_neural_network.pdf">Understanding_of_a_convolutional_neural_network.pdf</a></td>
+      <td><a href="Research & Resources/CNN for medical analysis.pdf">CNN for medical analysis.pdf</a></td>
+      <td><a href="Research & Resources/BCI review.pdf">BCI review.pdf</a></td>
+    </tr>
+    <tr>
+      <td><a href="Research & Resources/A Bayesian-optimized design for an interpretable convolutional neural network to decode and analyze the P300 response in autism.pdf">A Bayesian-optimized design CNN to decode and analyze the P300 response in autism.pdf</a></td>
+      <td><a href="Research & Resources/A Comparison among Classification Accuracy of Neural Network, FLDA and BLDA in P300-based BCI System.pdf">Comparison of Neural Network, FLDA and BLDA in P300-based BCI.pdf</a></td>
+      <td><a href="Research & Resources/A comparison of classification techniques for a gaze-independent P300-based brain–computer interface.pdf">Comparison of classification techniques for P300 in BCI.pdf</a></td>
+    </tr>
+    <tr>
+      <td><a href="Research & Resources/Adaptation_in_P300_BrainComputer_Interfaces_A_Two-Classifier_Cotraining_Approach.pdf">P300 BCI 2 Classifier contraining Approach.pdf</a></td>
+      <td><a href="Research & Resources/Improving the performance of P300 BCI system using different methods.pdf">Improving performance of BCI.pdf</a></td>
+      <td><a href="Research & Resources/A_Novel_Algorithm_for_Detection_of_Social_Joint_Attention_from_single-trial_EEG_signals_of_Autistic_Spectrum_Disorder_ASD.pdf">RUS with Autism EEG signals.pdf</a></td>
+    </tr>
+  </table>
+
+  <h2><a href="SBJ-S"> SBJ-S Folder</a></h2>
+  <table>
+    <tr>
+      <td><a href="SBJ-S/AllSBJ-S.txt">AllSBJ-S.txt</a></td>
+      <td><a href="SBJ-S/SBJ1-15&S1-3.txt">SBJ1-15&S1-3.txt</a></td>
+      <td><a href="SBJ-S/SBJ1-15&S4-7.txt">SBJ1-15&S4-7.txt</a></td>
+      <td><a href="SBJ-S/Cell Range Format.xlsx">Cell Range Format.xlsx</a></td>
+    </tr>
+  </table>
+
+  <h2><a href="Results"> Results Folder</a></h2>
+  <table>
+    <tr>
+      <td><a href="Results/All_Result_Data.xlsx">All_Result_Data.xlsx</a></td>
+      <td><a href="Results/SBJ1-15&S1-7_Results.xlsx">SBJ1-15&S1-7_Results.xlsx</a></td>
+      <td><a href="Results/SBJ1-15&S4-7_Results.xlsx">SBJ1-15&S4-7_Results.xlsx</a></td>
+      <td><a href="Results/SBJ1-15&S1-3_Results.xlsx">SBJ1-15&S1-3_Results.xlsx</a></td>
+    </tr>
+    <tr>
+      <td><a href="Results/SBJ1&S1-7_Results.xlsx">SBJ1&S1-7_Results.xlsx</a></td>
+    </tr>
+    <tr>
+      <td><h4><a href="Results/SBJ1&S1-7_Figures">SBJ1&S1-7_Figures</a></h4></td>
+    </tr>
+    <tr>
+      <td><a href="Results/SBJ1&S1-7_Figures/SBJ1&S1-7_2_Runs_50_Epochs_Object.png">SBJ1&S1-7_2_Runs_50_Epochs_Object.png</a></td>
+      <td><a href="Results/SBJ1&S1-7_Figures/SBJ1&S1-7_2_Runs_50_Epochs_Accuracy.png">SBJ1&S1-7_2_Runs_50_Epochs_Accuracy.png</a></td>
+      <td><a href="Results/SBJ1&S1-7_Figures/SBJ1&S1-7_30_Epochs_Varied_Dropout_Accuracy.png">SBJ1&S1-7_30_Epochs_Varied_Dropout_Accuracy.png</a></td>
+      <td><a href="Results/SBJ1&S1-7_Figures/SBJ1&S1-7_30_Epochs_Varied_Dropout_Object.png">SBJ1&S1-7_30_Epochs_Varied_Dropout_Object.png</a></td>
+    </tr>
+    <tr>
+      <td><a href="Results/SBJ1&S1-7_Figures/SBJ1&S1-7_4_Runs_30_Epochs_Accuracy.png">SBJ1&S1-7_4_Runs_30_Epochs_Accuracy.png</a></td>
+      <td><a href="Results/SBJ1&S1-7_Figures/SBJ1&S1-7_4_Runs_30_Epochs_Object.png">SBJ1&S1-7_4_Runs_30_Epochs_Object.png</a></td>
+      <td><a href="Results/SBJ1&S1-7_Figures/SBJ1&S1-7_Varied_Epochs_0.4_Dropout_Accuracy.png">SBJ1&S1-7_Varied_Epochs_0.4_Dropout_Accuracy.png</a></td>
+      <td><a href="Results/SBJ1&S1-7_Figures/SBJ1&S1-7_Varied_Epochs_0.4_Dropout_Object.png">SBJ1&S1-7_Varied_Epochs_0.4_Dropout_Object.png</a></td>
+    </tr>
+    <tr>
+      <td><h4><a href="Results/SBJ1-15&S1-3_Figures">SBJ1-15&S1-3_Figures</a></h4></td>
+    </tr>
+    <tr>
+      <td><a href="Results/SBJ1-15&S1-3_Figures/SBJ1-15&S1-3_30&50_Epochs_Accuracy.png">SBJ1-15&S1-3_30&50_Epochs_Accuracy.png</a></td>
+      <td><a href="Results/SBJ1-15&S1-3_Figures/SBJ1-15&S1-3_30&50_Epochs_Object.png">SBJ1-15&S1-3_30&50_Epochs_Object.png</a></td>
+      <td><a href="Results/SBJ1-15&S1-3_Figures/SBJ1-15&S1-3_30_Epochs_Varied_Dropout_Accuracy.png">SBJ1-15&S1-3_30_Epochs_Varied_Dropout_Accuracy.png</a></td>
+      <td><a href="Results/SBJ1-15&S1-3_Figures/SBJ1-15&S1-3_30_Epochs_Varied_Dropout_Object.png">SBJ1-15&S1-3_30_Epochs_Varied_Dropout_Object.png</a></td>
+    </tr>
+    <tr>
+      <td><a href="Results/SBJ1-15&S1-3_Figures/SBJ1-15&S1-3_30_Epochs_Varied_No_Of_Filters_Accuracy.png">SBJ1-15&S1-3_30_Epochs_Varied_No_Of_Filters_Accuracy.png</a></td>
+      <td><a href="Results/SBJ1-15&S1-3_Figures/SBJ1-15&S1-3_30_Epochs_Varied_No_Of_Filters_Object.png">SBJ1-15&S1-3_30_Epochs_Varied_No_Of_Filters_Object.png</a></td>
+    </tr>
+    <tr>
+      <td><h4><a href="Results/SBJ1-15&S4-7_Figures">SBJ1-15&S4-7_Figures</a></h4></td>
+    </tr>
+    <tr>
+      <td><a href="Results/SBJ1-15&S4-7_Figures/SBJ1-15&S4-7_11_Epochs_Predicated_Object.png">SBJ1-15&S4-7_11_Epochs_Predicated_Object.png</a></td>
+      <td><a href="Results/SBJ1-15&S4-7_Figures/SBJ1-15&S4-7_20&11_Epochs_Accuracy.png">SBJ1-15&S4-7_20&11_Epochs_Accuracy.png</a></td>
+      <td><a href="Results/SBJ1-15&S4-7_Figures/SBJ1-15&S4-7_20_Epochs_Predicated_Object.png">SBJ1-15&S4-7_20_Epochs_Predicated_Object.png</a></td>
+      <td><a href="Results/SBJ1-15&S4-7_Figures/SBJ1-15&S4-7_30&11_Epochs_Accuracy.png">SBJ1-15&S4-7_30&11_Epochs_Accuracy.png</a></td>
+    </tr>
+    <tr>
+      <td><a href="Results/SBJ1-15&S4-7_Figures/SBJ1-15&S4-7_30&20_Epochs_Accuracy.png">SBJ1-15&S4-7_30&20_Epochs_Accuracy.png</a></td>
+      <td><a href="Results/SBJ1-15&S4-7_Figures/SBJ1-15&S4-7_30&50&20&11_Epochs_Accuracy.png">SBJ1-15&S4-7_30&50&20&11_Epochs_Accuracy.png</a></td>
+      <td><a href="Results/SBJ1-15&S4-7_Figures/SBJ1-15&S4-7_30_Epochs_Predicated_Object.png">SBJ1-15&S4-7_30_Epochs_Predicated_Object.png</a></td>
+      <td><a href="Results/SBJ1-15&S4-7_Figures/SBJ1-15&S4-7_50&11_Epochs_Accuracy.png">SBJ1-15&S4-7_50&11_Epochs_Accuracy.png</a></td>
+    </tr>
+    <tr>
+      <td><a href="Results/SBJ1-15&S4-7_Figures/SBJ1-15&S4-7_50&20_Epochs_Accuracy.png">SBJ1-15&S4-7_50&20_Epochs_Accuracy.png</a></td>
+      <td><a href="Results/SBJ1-15&S4-7_Figures/SBJ1-15&S4-7_50&30&20&11_Epochs_Predicated_Object.png">SBJ1-15&S4-7_50&30&20&11_Epochs_Predicated_Object.png</a></td>
+      <td><a href="Results/SBJ1-15&S4-7_Figures/SBJ1-15&S4-7_50&30&20&11_Epochs_RuntimeMinutes.png">SBJ1-15&S4-7_50&30&20&11_Epochs_RuntimeMinutes.png</a></td>
+      <td><a href="Results/SBJ1-15&S4-7_Figures/SBJ1-15&S4-7_50&30&20&11_Epochs_RuntimeSeconds.png">SBJ1-15&S4-7_50&30&20&11_Epochs_RuntimeSeconds.png</a></td>
+    </tr>
+    <tr>
+      <td><a href="Results/SBJ1-15&S4-7_Figures/SBJ1-15&S4-7_50&30_Epochs_Accuracy.png">SBJ1-15&S4-7_50&30_Epochs_Accuracy.png</a></td>
+      <td><a href="Results/SBJ1-15&S4-7_Figures/SBJ1-15&S4-7_50_Epochs_Predicated_Object.png">SBJ1-15&S4-7_50_Epochs_Predicated_Object.png</a></td>
+      <td><a href="Results/SBJ1-15&S4-7_Figures/SBJ1-15&S4-7_50_Epochs_Varied_Accuracy.png">SBJ1-15&S4-7_50_Epochs_Varied_Accuracy.png</a></td>
+      <td><a href="Results/SBJ1-15&S4-7_Figures/SBJ1-15&S4-7_50_Epochs_Varied_Predicated_Object.png">SBJ1-15&S4-7_50_Epochs_Varied_Predicated_Object.png</a></td>
+    </tr>
+    <tr>
+      <td><a href="Results/SBJ1-15&S4-7_Figures/SBJ1-15&S4-7_50_Epochs_Varied_RuntimeMinutes.png">SBJ1-15&S4-7_50_Epochs_Varied_RuntimeMinutes.png</a></td>
+      <td><a href="Results/SBJ1-15&S4-7_Figures/SBJ1-15&S4-7_50_Epochs_Varied_RuntimeSeconds.png">SBJ1-15&S4-7_50_Epochs_Varied_RuntimeSeconds.png</a></td>
+    </tr>
+      <td><h4><a href="Results/SBJ1-15&S1-7_Figures">SBJ1-15&S1-7_Figures</a></h4></td>
+    </tr>
+    <tr>
+      <td><a href="Results/SBJ1-15&S1-7_Figures/SBJ1-15&S1-7_04_Dropout_Varied_Epochs_Accuracy.png">SBJ1-15&S1-7_04_Dropout_Varied_Epochs_Accuracy.png</a></td>
+      <td><a href="Results/SBJ1-15&S1-7_Figures/SBJ1-15&S1-7_04_Dropout_Varied_Epochs_Object.png">SBJ1-15&S1-7_04_Dropout_Varied_Epochs_Object.png</a></td>
+      <td><a href="Results/SBJ1-15&S1-7_Figures/SBJ1-15&S1-7_3_Runs_30_Epochs_Accuracy.png">SBJ1-15&S1-7_3_Runs_30_Epochs_Accuracy.png</a></td>
+      <td><a href="Results/SBJ1-15&S1-7_Figures/SBJ1-15&S1-7_3_Runs_30_Epochs_Object.png">SBJ1-15&S1-7_3_Runs_30_Epochs_Object.png</a></td>
+    </tr>
+    <tr>
+      <td><a href="Results/SBJ1-15&S1-7_Figures/SBJ1-15&S1-7_3_Runs_50_Epochs_Accuracy.png">SBJ1-15&S1-7_3_Runs_50_Epochs_Accuracy.png</a></td>
+      <td><a href="Results/SBJ1-15&S1-7_Figures/SBJ1-15&S1-7_Varied_Epochs_Accuracy.png">SBJ1-15&S1-7_Varied_Epochs_Accuracy.png</a></td>
+      <td><a href="Results/SBJ1-15&S1-7_Figures/SBJ1-15&S1-7_Varied_Epochs_Object.png">SBJ1-15&S1-7_Varied_Epochs_Object.png</a></td>
+      <td><a href="Results/SBJ1-15&S1-7_Figures/SBJ1-15&S1-7_Varied_Filter_Numbers_Accuracy.png">SBJ1-15&S1-7_Varied_Filter_Numbers_Accuracy.png</a></td>
+    </tr>
+    <tr>
+      <td><a href="Results/SBJ1-15&S1-7_Figures/SBJ1-15&S1-7_Varied_Filter_Numbers_Object.png">SBJ1-15&S1-7_Varied_Filter_Numbers_Object.png</a></td>
+      <td><a href="Results/SBJ1-15&S1-7_Figures/SBJ1-15&S1-7_Varied_FullyConnctedLayer_Accuracy.png">SBJ1-15&S1-7_Varied_FullyConnctedLayer_Accuracy.png</a></td>
+      <td><a href="Results/SBJ1-15&S1-7_Figures/SBJ1-15&S1-7_Varied_FullyConnctedLayer_Object.png">SBJ1-15&S1-7_Varied_FullyConnctedLayer_Object.png</a></td>
+      <td><a href="Results/SBJ1-15&S1-7_Figures/SBJ1-15&S1-7_Varied_No_Of_Filters_and_Learning_Rate_Accuracy.png">SBJ1-15&S1-7_Varied_No_Of_Filters_and_Learning_Rate_Accuracy.png</a></td>
+    </tr>
+    <tr>
+      <td><a href="Results/SBJ1-15&S1-7_Figures/SBJ1-15&S1-7_Varied_No_Of_Filters_and_Learning_Rate_Object.png">SBJ1-15&S1-7_Varied_No_Of_Filters_and_Learning_Rate_Object.png</a></td>
+    </tr>
+  </table>
+
+<h2><a href="Dataset">Dataset Folder</a></h2>
+An example of the content of SBJ01 of this dataset folder, where 15 folders are contained for subjects 1 to 15 (SBJ01 - SBJ15)
+  <table>
+    <tr>
+      <td><h4><a href="Dataset/SBJ01">SBJ01</a></h4></td>
+    </tr>
+    <tr>
+      <td><h5><a href="Dataset/SBJ01/S01">S01</a></h5></td>
+      <td><a href="Dataset/SBJ01/S01/trainData.mat">traindata.mat</a></td>
+      <td><a href="Dataset/SBJ01/S01/trainTargets.txt">trainTargets.txt</a></td>
+      <td><a href="Dataset/SBJ01/S01/trainEvents.txt">trainEvents.txt</a></td>
+      <td><a href="Dataset/SBJ01/S01/trainLabels.txt">trainLabels.txt</a></td>
+      <td><a href="Dataset/SBJ01/S01/testData.mat">testData.mat</a></td>
+      <td><a href="Dataset/SBJ01/S01/testTargets.txt">testTargets.txt</a></td>
+      <td><a href="Dataset/SBJ01/S01/testEvents.txt">testEvents.txt</a></td>
+      <td><a href="Dataset/SBJ01/S01/testLabels.txt">testLabels.txt</a></td>
+      <td><a href="Dataset/SBJ01/S01/runs_per_block.txt">runs_per_block.txt</a></td>
+    </tr>
+    <tr>
+      <td><h5><a href="Dataset/SBJ01/S02">S02</a></h5></td>
+      <td><a href="Dataset/SBJ01/S02/trainData.mat">traindata.mat</a></td>
+      <td><a href="Dataset/SBJ01/S02/trainTargets.txt">trainTargets.txt</a></td>
+      <td><a href="Dataset/SBJ01/S02/trainEvents.txt">trainEvents.txt</a></td>
+      <td><a href="Dataset/SBJ01/S02/trainLabels.txt">trainLabels.txt</a></td>
+      <td><a href="Dataset/SBJ01/S02/testData.mat">testData.mat</a></td>
+      <td><a href="Dataset/SBJ01/S02/testTargets.txt">testTargets.txt</a></td>
+      <td><a href="Dataset/SBJ01/S02/testEvents.txt">testEvents.txt</a></td>
+      <td><a href="Dataset/SBJ01/S02/testLabels.txt">testLabels.txt</a></td>
+      <td><a href="Dataset/SBJ01/S02/runs_per_block.txt">runs_per_block.txt</a></td>
+    </tr>
+    <tr>
+      <td><h5><a href="Dataset/SBJ01/S03">S03</a></h5></td>
+      <td><a href="Dataset/SBJ01/S03/trainData.mat">traindata.mat</a></td>
+      <td><a href="Dataset/SBJ01/S03/trainTargets.txt">trainTargets.txt</a></td>
+      <td><a href="Dataset/SBJ01/S03/trainEvents.txt">trainEvents.txt</a></td>
+      <td><a href="Dataset/SBJ01/S03/trainLabels.txt">trainLabels.txt</a></td>
+      <td><a href="Dataset/SBJ01/S03/testData.mat">testData.mat</a></td>
+      <td><a href="Dataset/SBJ01/S03/testTargets.txt">testTargets.txt</a></td>
+      <td><a href="Dataset/SBJ01/S03/testEvents.txt">testEvents.txt</a></td>
+      <td><a href="Dataset/SBJ01/S03/testLabels.txt">testLabels.txt</a></td>
+      <td><a href="Dataset/SBJ01/S03/runs_per_block.txt">runs_per_block.txt</a></td>
+    </tr>
+    <tr>
+      <td><h5><a href="Dataset/SBJ01/S04">S04</a></h5></td>
+      <td><a href="Dataset/SBJ01/S04/trainData.mat">traindata.mat</a></td>
+      <td><a href="Dataset/SBJ01/S04/trainTargets.txt">trainTargets.txt</a></td>
+      <td><a href="Dataset/SBJ01/S04/trainEvents.txt">trainEvents.txt</a></td>
+      <td><a href="Dataset/SBJ01/S04/trainLabels.txt">trainLabels.txt</a></td>
+      <td><a href="Dataset/SBJ01/S04/testData.mat">testData.mat</a></td>
+      <td><a href="Dataset/SBJ01/S04/testTargets.txt">testTargets.txt</a></td>
+      <td><a href="Dataset/SBJ01/S04/testEvents.txt">testEvents.txt</a></td>
+      <td><a href="Dataset/SBJ01/S04/testLabels.txt">testLabels.txt</a></td>
+      <td><a href="Dataset/SBJ01/S04/runs_per_block.txt">runs_per_block.txt</a></td>
+    </tr>
+    <tr>
+      <td><h5><a href="Dataset/SBJ01/S05">S05</a></h5></td>
+      <td><a href="Dataset/SBJ01/S05/trainData.mat">traindata.mat</a></td>
+      <td><a href="Dataset/SBJ01/S05/trainTargets.txt">trainTargets.txt</a></td>
+      <td><a href="Dataset/SBJ01/S05/trainEvents.txt">trainEvents.txt</a></td>
+      <td><a href="Dataset/SBJ01/S05/trainLabels.txt">trainLabels.txt</a></td>
+      <td><a href="Dataset/SBJ01/S05/testData.mat">testData.mat</a></td>
+      <td><a href="Dataset/SBJ01/S05/testTargets.txt">testTargets.txt</a></td>
+      <td><a href="Dataset/SBJ01/S05/testEvents.txt">testEvents.txt</a></td>
+      <td><a href="Dataset/SBJ01/S05/testLabels.txt">testLabels.txt</a></td>
+      <td><a href="Dataset/SBJ01/S05/runs_per_block.txt">runs_per_block.txt</a></td>
+    </tr>
+    <tr>
+      <td><h5><a href="Dataset/SBJ01/S06">S06</a></h5></td>
+      <td><a href="Dataset/SBJ01/S06/trainData.mat">traindata.mat</a></td>
+      <td><a href="Dataset/SBJ01/S06/trainTargets.txt">trainTargets.txt</a></td>
+      <td><a href="Dataset/SBJ01/S06/trainEvents.txt">trainEvents.txt</a></td>
+      <td><a href="Dataset/SBJ01/S06/trainLabels.txt">trainLabels.txt</a></td>
+      <td><a href="Dataset/SBJ01/S06/testData.mat">testData.mat</a></td>
+      <td><a href="Dataset/SBJ01/S06/testTargets.txt">testTargets.txt</a></td>
+      <td><a href="Dataset/SBJ01/S06/testEvents.txt">testEvents.txt</a></td>
+      <td><a href="Dataset/SBJ01/S06/testLabels.txt">testLabels.txt</a></td>
+      <td><a href="Dataset/SBJ01/S06/runs_per_block.txt">runs_per_block.txt</a></td>
+    </tr>
+    <tr>
+      <td><h5><a href="Dataset/SBJ01/S07">S07</a></h5></td>
+      <td><a href="Dataset/SBJ01/S07/trainData.mat">traindata.mat</a></td>
+      <td><a href="Dataset/SBJ01/S07/trainTargets.txt">trainTargets.txt</a></td>
+      <td><a href="Dataset/SBJ01/S07/trainEvents.txt">trainEvents.txt</a></td>
+      <td><a href="Dataset/SBJ01/S07/trainLabels.txt">trainLabels.txt</a></td>
+      <td><a href="Dataset/SBJ01/S07/testData.mat">testData.mat</a></td>
+      <td><a href="Dataset/SBJ01/S07/testTargets.txt">testTargets.txt</a></td>
+      <td><a href="Dataset/SBJ01/S07/testEvents.txt">testEvents.txt</a></td>
+      <td><a href="Dataset/SBJ01/S07/testLabels.txt">testLabels.txt</a></td>
+      <td><a href="Dataset/SBJ01/S07/runs_per_block.txt">runs_per_block.txt</a></td>
+    </tr>
+  </table>
